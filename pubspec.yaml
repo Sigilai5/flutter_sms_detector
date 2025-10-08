@@ -1,0 +1,17 @@
+name: sms_overlay_app
+description: A cross-platform SMS overlay app
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  overlay_support: ^2.1.0
+  permission_handler: ^12.0.0+1
+  another_telephony: ^0.4.1
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
